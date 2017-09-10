@@ -1,0 +1,6 @@
+---
+- type: replace
+  path: /releases/name=tensorflow
+  value:
+    name: tensorflow
+    version: latest
