@@ -18,10 +18,18 @@ python/wheel-0.29.0-py2.py3-none-any.whl:
   size: 66878
   object_id: e91cc7f3-32f0-4032-5a07-653a4790bf78
   sha: fcbf015b87179d0ad05eeb1c72282c172e313793
+tensorflow-deps/autograd-1.1.13.tar.gz:
+  size: 26641
+  object_id: 6c5a697d-c1e2-4879-7d9a-a991e6550e92
+  sha: f19d160875032bbdb8f993bb52bd6cca72e6d9af
 tensorflow-deps/enum34-1.1.6-py2-none-any.whl:
   size: 12427
   object_id: a30bfb6a-f14a-4a20-4f15-9febd0dacc50
   sha: aac820b47ecb34acd554bb276424dd971e287ffd
+tensorflow-deps/future-0.16.0.tar.gz:
+  size: 824484
+  object_id: f9a69663-a955-4b50-5260-cca3bb2a07e1
+  sha: 86ed881acef874d04576b9df03c29d25ad2cd25f
 tensorflow-deps/mock-2.0.0-py2.py3-none-any.whl:
   size: 56820
   object_id: a4bcb8d9-563d-400f-4aaf-d76c1cf3ebe9
