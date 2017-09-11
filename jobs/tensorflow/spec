@@ -1,6 +1,6 @@
 ---
 name: tensorflow
-packages: [python]
+packages: [python, tensorflow]
 templates:
   ignoreme: ignoreme
 properties: {}

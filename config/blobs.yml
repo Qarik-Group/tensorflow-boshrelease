@@ -18,23 +18,23 @@ python/wheel-0.29.0-py2.py3-none-any.whl:
   size: 66878
   object_id: e91cc7f3-32f0-4032-5a07-653a4790bf78
   sha: fcbf015b87179d0ad05eeb1c72282c172e313793
-tensorflow/enum34-1.1.6-py2-none-any.whl:
+tensorflow-deps/enum34-1.1.6-py2-none-any.whl:
   size: 12427
   object_id: a30bfb6a-f14a-4a20-4f15-9febd0dacc50
   sha: aac820b47ecb34acd554bb276424dd971e287ffd
-tensorflow/mock-2.0.0-py2.py3-none-any.whl:
+tensorflow-deps/mock-2.0.0-py2.py3-none-any.whl:
   size: 56820
   object_id: a4bcb8d9-563d-400f-4aaf-d76c1cf3ebe9
   sha: b7fe0f95375941cc50f2394fb7757831a4d663a8
-tensorflow/numpy-1.13.1-cp27-cp27m-manylinux1_x86_64.whl:
+tensorflow-deps/numpy-1.13.1-cp27-cp27m-manylinux1_x86_64.whl:
   size: 16634615
   object_id: 5e481213-2fe0-419a-6c19-18fdf6c42d31
   sha: 328df9b9b4ebe07c4858ba2f9f75f3d1817c5173
-tensorflow/protobuf-3.4.0-cp27-cp27mu-manylinux1_x86_64.whl:
+tensorflow-deps/protobuf-3.4.0-cp27-cp27mu-manylinux1_x86_64.whl:
   size: 6162450
   object_id: 059d623b-e074-4a2f-4a14-035cc9cceae4
   sha: cd6744733b3eacfcc7714346bab668add9ab2721
-tensorflow/six-1.10.0-py2.py3-none-any.whl:
+tensorflow-deps/six-1.10.0-py2.py3-none-any.whl:
   size: 10341
   object_id: bbdbde12-702e-44b4-6a03-6919b22ae827
   sha: 19df5f56abce3db94d5e0e079e54bf430fddbb02
@@ -42,7 +42,7 @@ tensorflow/tensorflow-1.3.0-cp27-cp27mu-manylinux1_x86_64.whl:
   size: 43126740
   object_id: bfd93991-f01b-4f93-6c03-4bb9acaf949f
   sha: b018801009d0f7378683d457a5c8d38308b5e873
-tensorflow/tensorflow_tensorboard-0.1.6-py2-none-any.whl:
+tensorflow-deps/tensorflow_tensorboard-0.1.6-py2-none-any.whl:
   size: 2192981
   object_id: 7be5dd90-14b0-416b-463e-bb7f76325795
   sha: 6403d4958559cce2b76f49d3daebc4817f6d1a49
