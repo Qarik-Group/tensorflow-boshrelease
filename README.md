@@ -26,6 +26,8 @@ Then activate the virtualenv containing tensorflow:
 
 ```
 cd /var/vcap/packages/tensorflow
+for dir in $(ls -d /var/vcap/packages/*/bin); do export PATH=$dir:$PATH; done
+for dir in $(ls -d /var/vcap/packages/*/lib); do export LD_LIBRARY_PATH=$dir:${LD_LIBRARY_PATH:-}; done
 . venv/bin/activate
 python
 ```
@@ -37,6 +39,16 @@ import tensorflow as tf
 hello = tf.constant('Hello, TensorFlow!')
 sess = tf.Session()
 print(sess.run(hello))
+```
+
+To see a simple TensorFlow cluster in action, execute the following:
+
+```
+import tensorflow as tf
+c = tf.constant("Hello, distributed TensorFlow!")
+server = tf.train.Server.create_local_server()
+sess = tf.Session(server.target)  # Create a session on the server.
+sess.run(c)
 ```
 
 ## Development
