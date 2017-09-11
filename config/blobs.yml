@@ -18,3 +18,7 @@ python/wheel-0.29.0-py2.py3-none-any.whl:
   size: 66878
   object_id: e91cc7f3-32f0-4032-5a07-653a4790bf78
   sha: fcbf015b87179d0ad05eeb1c72282c172e313793
+tensorflow/tensorflow-1.3.0-cp27-cp27mu-manylinux1_x86_64.whl:
+  size: 43126740
+  object_id: bfd93991-f01b-4f93-6c03-4bb9acaf949f
+  sha: b018801009d0f7378683d457a5c8d38308b5e873
