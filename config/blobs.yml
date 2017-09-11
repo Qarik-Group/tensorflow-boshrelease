@@ -26,10 +26,10 @@ tensorflow-deps/mock-2.0.0-py2.py3-none-any.whl:
   size: 56820
   object_id: a4bcb8d9-563d-400f-4aaf-d76c1cf3ebe9
   sha: b7fe0f95375941cc50f2394fb7757831a4d663a8
-tensorflow-deps/numpy-1.13.1-cp27-cp27m-manylinux1_x86_64.whl:
-  size: 16634615
-  object_id: 5e481213-2fe0-419a-6c19-18fdf6c42d31
-  sha: 328df9b9b4ebe07c4858ba2f9f75f3d1817c5173
+tensorflow-deps/numpy-1.13.1-cp27-cp27mu-manylinux1_x86_64.whl:
+  size: 16632622
+  object_id: c10991b7-c8a0-40de-7ded-3ff7c913e489
+  sha: 2d2e5ef95db51129e8a09d96edbc39edfc369a70
 tensorflow-deps/protobuf-3.4.0-cp27-cp27mu-manylinux1_x86_64.whl:
   size: 6162450
   object_id: 059d623b-e074-4a2f-4a14-035cc9cceae4
@@ -38,11 +38,11 @@ tensorflow-deps/six-1.10.0-py2.py3-none-any.whl:
   size: 10341
   object_id: bbdbde12-702e-44b4-6a03-6919b22ae827
   sha: 19df5f56abce3db94d5e0e079e54bf430fddbb02
-tensorflow/tensorflow-1.3.0-cp27-cp27mu-manylinux1_x86_64.whl:
-  size: 43126740
-  object_id: bfd93991-f01b-4f93-6c03-4bb9acaf949f
-  sha: b018801009d0f7378683d457a5c8d38308b5e873
 tensorflow-deps/tensorflow_tensorboard-0.1.6-py2-none-any.whl:
   size: 2192981
   object_id: 7be5dd90-14b0-416b-463e-bb7f76325795
   sha: 6403d4958559cce2b76f49d3daebc4817f6d1a49
+tensorflow/tensorflow-1.3.0-cp27-cp27mu-manylinux1_x86_64.whl:
+  size: 43126740
+  object_id: bfd93991-f01b-4f93-6c03-4bb9acaf949f
+  sha: b018801009d0f7378683d457a5c8d38308b5e873

@@ -2,5 +2,5 @@
 name: tensorflow
 dependencies: [python]
 files:
-- tensorflow/*.whl 
-- tensorflow-deps/*.whl
+- tensorflow/*
+- tensorflow-deps/*
