@@ -50,15 +50,3 @@ server = tf.train.Server.create_local_server()
 sess = tf.Session(server.target)  # Create a session on the server.
 sess.run(c)
 ```
-
-## Development
-
-As a developer of this release, create new releases, upload and deploy them:
-
-```
-bosh create-release --force && \
-  bosh -n upload-release && \
-  bosh deploy manifests/tensorflow.yml --vars-store tmp/creds.yml
-```
-
-If your BOSH has Credhub, then you can omit `--vars-store` flag. It is used to generate any passwords/credentials/certificates required by `manifests/tensorflow.yml`.
