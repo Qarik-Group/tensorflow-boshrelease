@@ -22,6 +22,10 @@ tensorflow-deps/autograd-1.1.13.tar.gz:
   size: 26641
   object_id: 6c5a697d-c1e2-4879-7d9a-a991e6550e92
   sha: f19d160875032bbdb8f993bb52bd6cca72e6d9af
+tensorflow-deps/backports.weakref-1.0rc1-py2-none-any.whl:
+  size: 4334
+  object_id: 34b7ea36-4970-4dab-462e-1141265e7b41
+  sha: 00d43db7128f6fe08203c2ff3db96b3f6dc73ad2
 tensorflow-deps/enum34-1.1.6-py2-none-any.whl:
   size: 12427
   object_id: a30bfb6a-f14a-4a20-4f15-9febd0dacc50
