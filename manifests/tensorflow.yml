@@ -29,6 +29,6 @@ update:
 
 releases:
 - name: tensorflow
-  version: latest # TODO: update after first final release
-  # url:            TODO: update after first final release
-  # sha1:           TODO: update after first final release
+  version: 0.1.0
+  url: https://github.com/starkandwayne/tensorflow-boshrelease/releases/download/v0.1.0/tensorflow-0.1.0.tgz
+  sha1: 97da91063b5d3a94d063cc70493d9a8d7a58ed43

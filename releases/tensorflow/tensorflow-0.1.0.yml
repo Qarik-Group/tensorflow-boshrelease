@@ -1,0 +1,25 @@
+name: tensorflow
+version: 0.1.0
+commit_hash: 25468ec
+uncommitted_changes: false
+jobs:
+- name: tensorflow
+  version: bacf9c841dad70c33e0a2bfcec8936dbdf8fc030
+  fingerprint: bacf9c841dad70c33e0a2bfcec8936dbdf8fc030
+  sha1: 2a87479e2c99c7e1aec45cfa9a8b564e5a8de05c
+packages:
+- name: python
+  version: 5027d7963bee213a5391256981964fbf043195d4
+  fingerprint: 5027d7963bee213a5391256981964fbf043195d4
+  sha1: 4ffa89dff25a52a21a8237e53201dca5f54ee923
+  dependencies: []
+- name: tensorflow
+  version: a8d6d67306ab3d7fc51a4ff4ca20c1e13ad94a61
+  fingerprint: a8d6d67306ab3d7fc51a4ff4ca20c1e13ad94a61
+  sha1: eec07c3112804831abbc7555d686f87a285bd207
+  dependencies:
+  - python
+license:
+  version: ac77a509d8b020148f8ce7b3ecce592f89c29c87
+  fingerprint: ac77a509d8b020148f8ce7b3ecce592f89c29c87
+  sha1: 2d31af49002a81b1b900cc9e98c5308506d69483
