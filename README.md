@@ -45,8 +45,19 @@ To see a simple TensorFlow cluster in action, execute the following:
 
 ```
 import tensorflow as tf
-c = tf.constant("Hello, distributed TensorFlow!")
+hello = tf.constant("Hello, distributed TensorFlow!")
 server = tf.train.Server.create_local_server()
 sess = tf.Session(server.target)  # Create a session on the server.
-sess.run(c)
+sess.run(hello)
+```
+
+To explicitly run a server on a specific port without any peers:
+
+```
+import tensorflow as tf
+hello = tf.constant("Hello, distributed TensorFlow!")
+cluster = tf.train.ClusterSpec({"local": ["localhost:2222"]})
+server = tf.train.Server(cluster, job_name="local", task_index=0)
+sess = tf.Session(server.target)  # Create a session on the server.
+sess.run(hello)
 ```
