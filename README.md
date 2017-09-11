@@ -1,6 +1,8 @@
-# BOSH release for tensorflow
+# Run Tensorflow on any infrastructure using BOSH
 
-This BOSH release and deployment manifest deploy a cluster of tensorflow.
+Deploy this BOSH release to bring up Tensorflow on any supported infrastructure (vSphere, Google Compute, Amazon EC2, Microsoft Azure, OpenStack, and more).
+
+**STATUS:** This BOSH release packages tensorflow and its python dependencies and makes python/tensorflow available. See [Usage](#usage) section. I'm still investigating useful ways to use a cluster of Tensorflow servers.
 
 ## Install
 
